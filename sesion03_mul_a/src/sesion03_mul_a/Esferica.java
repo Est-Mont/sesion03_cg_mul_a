@@ -4,41 +4,42 @@ package sesion03_mul_a;
 
 public class Esferica {
     
-    private float radio;
-    private float angulo1;
-    private float angulo2;
+    private double radio;
+    private double angulo1;
+    private double angulo2;
 
-    public Esferica(float radio, float angulo1, float angulo2) {
+    public Esferica(double radio, double angulo1, double angulo2) {
         this.radio = radio;
         this.angulo1 = angulo1;
         this.angulo2 = angulo2;
     }
 
     public Esferica() {
+        
     }
 
     
-    public float getRadio() {
+    public double getRadio() {
         return radio;
     }
 
-    public float getAngulo1() {
+    public double getAngulo1() {
         return angulo1;
     }
 
-    public float getAngulo2() {
+    public double getAngulo2() {
         return angulo2;
     }
 
-    public void setRadio(float radio) {
+    public void setRadio(double radio) {
         this.radio = radio;
     }
 
-    public void setAngulo1(float angulo1) {
+    public void setAngulo1(double angulo1) {
         this.angulo1 = angulo1;
     }
 
-    public void setAngulo2(float angulo2) {
+    public void setAngulo2(double angulo2) {
         this.angulo2 = angulo2;
     }
 
